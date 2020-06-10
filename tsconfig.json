@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    //Typescript será compilado para ES2015 e usará modulo commonjs
+    "target": "es6",
+    "module": "commonjs", //Modulo utilizado no padrão commonjs, sendo o mesmo utilizado por nodejs
+    "outDir": "dist"
+  },
+  "include": ["src/**/*.ts"], //Diz para o compilador procurar por todos os arquivos .ts dentro da pasta src
+  "exclude": ["node_modules"] //Diz para o compilador ignorar qualquer arquivo dentro da pasta node_modules
+}
